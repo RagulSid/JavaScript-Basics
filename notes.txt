@@ -1,0 +1,18 @@
+javascript:
+    -responsive
+    -interacive
+    -object oriented
+
+common data types:
+    -numbers
+    -strings
+    -arrays
+    -objects
+
+variable types:
+    -letters
+    -numbers
+    -underscore
+    -dollarsign
+
+    //variables are case sensitive

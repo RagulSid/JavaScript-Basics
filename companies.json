@@ -1,0 +1,14 @@
+[
+    {
+        "name":"Ragul",
+        "Age ":20,
+        "Degree": "BE",
+        "isProgrammer": true
+    },
+    {
+        "name":"Musk",
+        "Age ":40,
+        "Degree": "BE",
+        "isProgrammer": true
+    }
+] 

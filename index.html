@@ -131,6 +131,37 @@
     console.log(rabbit1);
     console.log(rabbit1.color2);
 
+    //functions
+    function sum(a, b){
+        return a+b;
+    }
+    //arrow functions
+    //we have to create the variable here
+    let sum1 = (a, b) => a+b
+    let sum2 = (a, b) => {
+        return a+b
+    }
+
+    //using json files
+    // ` for converting json string into javascript objects
+    // we can do anything with this converted js objects of json strings
+    let companies =
+    `[
+     {
+        "name":"Ragul",
+        "Age ":20,
+        "Degree": "BE",
+        "isProgrammer": true
+     },
+     {
+        "name":"Musk",
+        "Age ":40,
+        "Degree": "BE",
+        "isProgrammer": true
+     }
+    ]`
+
+    console.log(JSON.parse(companies))
 </script>
 </body>
 </html>

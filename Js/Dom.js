@@ -45,7 +45,7 @@ var header1 = document.querySelector('#main-header');
 header1.style.borderBottom = 'solid 4px #000';
 
 var input = document.querySelector('input');
-input.value = "Hello world"
+//input.value = "Hello world"
 
 var Lastitem = document.querySelector('.list-group-item:last-child');
 Lastitem.style.color = 'blue';
@@ -99,7 +99,6 @@ newDiv.className='hello';
 newDiv.id='hello1';
 newDiv.setAttribute('title','hello div  ');
 //console.log(newDiv);
-
 var newDivtext = document.createTextNode('hello world');
 newDiv.appendChild(newDivtext); //add text to div
 //console.log(newDiv);
@@ -108,3 +107,58 @@ newDiv.appendChild(newDivtext); //add text to div
 // console.log(newDiv);
 // container.insertBefore(newDiv,h1);
 // newDiv.style.fontSize = '30px';
+
+
+//Events
+// function buttonClick(e){
+//     console.log('Button clicked');
+//     document.querySelector('#main').style.backgroundColor = "lightgreen";
+//     console.log(e.target);
+//     //console.log(e.target.id);
+//     //console.log(e.target.className);
+//     //console.log(e.target.classList);
+     var output = document.getElementById('button');
+//     //var output = document.getElementById('button').innerText = "hello";
+//     //output.innerHTML = '<h3>'+e.target.id+'</h3>';
+//     // console.log(e.clientX); //x axis left to right
+//     // console.log(e.clientY); //Y axis top to bottom
+//     // console.log(e.offsetX); //postion of actual element
+//     console.log(e.altKey);
+//     console.log(e.ctrlKey); //if ctrl key pressed we can add more functions...based on condition
+
+// }
+// var button = document.getElementById('button').addEventListener('click',buttonClick);
+
+// var button = document.getElementById('button').addEventListener('click',function(){
+//     console.log('function worked');
+// });
+
+var button = document.getElementById('button');
+var box = document.getElementById('box');
+
+// button.addEventListener('click',runEvent);
+// button.addEventListener('dblclick',runEvent);
+// button.addEventListener('mousedown',runEvent);
+// button.addEventListener('mouseup',runEvent);
+
+function runEvent(e){
+    e.preventDefault();
+    console.log('Event type : '+e.type);
+    //output.innerHTML = "mousex : "+e.offsetX+" MouseY : "+e.offsetY;
+    //console.log(e.target.value);
+    //document.getElementById('output').innerHTML = e.target.value;
+
+}
+
+// box.addEventListener('mouseenter',runEvent);
+// box.addEventListener('mouseover',runEvent); //for inner elements
+
+var itemInput = document.querySelector('input[type="text"]');
+//itemInput.addEventListener('keydown',runEvent);
+itemInput.addEventListener('focus',runEvent);
+var form = document.querySelector('form');
+var select = document.querySelector('select');
+
+//select.addEventListener('change',runEvent);
+
+form.addEventListener('submit',runEvent);

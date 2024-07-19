@@ -1,0 +1,122 @@
+"45": [
+    {
+        "submissionNumber": 45,
+        "runMode": "DU",
+        "response": [
+            {
+                "ausScenarioId": "7d329625-089a-4e99-98ec-bfc9d42fdd50",
+                "submissionNumber": 45,
+                "subjectPropertyAddress": {
+                    "street": "TBD",
+                },
+                "propertyDetail": {
+                    "propertyUsageType": "PrimaryResidence",
+                },
+                "loanInformation": {
+                    "loanPurpose": "Purchase",
+
+                },
+                "monthlyPaymentDetails": {
+                    "mipFundingAmount": ""
+                },
+                "assets": {
+                    "assetBorCobBoth1": "Borrower",
+                },
+                "otherAssets": {
+                    "otherAssetBorCobBoth1": "Borrower",
+                },
+                "liabilities": {
+                    "liabilitiesBorCobBoth1": "Borrower",
+                    "liabilitiesMonthlyAmount5": ""
+                },
+                "otherLiabilitiesAndExpenses": {
+                    "otherLiabilitiesAndExpensesBorrowerCoBorrowerBoth1": "",
+                },
+                "status": "Success",
+                "ausTrackings": [
+                    {
+                        "ausTracking": {
+                            "application": {
+                                "entityId": "_borrower1",
+                            },
+                            "uwRiskAssessType": "DU",
+                        },
+                        "status": "Success"
+                    }
+                ],
+                "mortgageOriginators": "DU",
+                "responseDocuments": [],
+                "efolder": {
+                    "efolderRequest": {
+                        "title": "1002 - AUS Findings",
+                    },
+                    "efolderCreateDocResponse": {
+                        "id": "9487e8b0-0a62-4f78-a7d0-a8ca0915dd4d"
+                    },
+                    "status": "Success",
+                }
+            }
+        ]
+    }
+],
+"46": [
+    {
+        "submissionNumber": 46,
+        "runMode": "DU",
+        "response": [
+            {
+                "ausScenarioId": "34dfe2d3-99df-4ef2-9d43-aa4b8b6301ba",
+                "submissionNumber": 45,
+                "subjectPropertyAddress": {
+                    "street": "TBD",
+                },
+                "propertyDetail": {
+                    "propertyUsageType": "PrimaryResidence",
+                },
+                "loanInformation": {
+                    "loanPurpose": "Purchase",
+
+                },
+                "monthlyPaymentDetails": {
+                    "mipFundingAmount": ""
+                },
+                "assets": {
+                    "assetBorCobBoth1": "Borrower",
+                },
+                "otherAssets": {
+                    "otherAssetBorCobBoth1": "Borrower",
+                },
+                "liabilities": {
+                    "liabilitiesBorCobBoth1": "Borrower",
+                    "liabilitiesMonthlyAmount5": ""
+                },
+                "otherLiabilitiesAndExpenses": {
+                    "otherLiabilitiesAndExpensesBorrowerCoBorrowerBoth1": "",
+                },
+                "status": "Success",
+                "ausTrackings": [
+                    {
+                        "ausTracking": {
+                            "application": {
+                                "entityId": "_borrower1",
+                            },
+                            "uwRiskAssessType": "DU",
+                        },
+                        "status": "Success"
+                    }
+                ],
+                "mortgageOriginators": "DU",
+                "responseDocuments": [],
+                "efolder": {
+                    "efolderRequest": {
+                        "title": "1002 - AUS Findings",
+                    },
+                    "efolderCreateDocResponse": {
+                        "id": "9487e8b0-0a62-4f78-a7d0-a8ca0915dd4d"
+                    },
+                    "status": "Success",
+                }
+            }
+        ]
+    }
+],

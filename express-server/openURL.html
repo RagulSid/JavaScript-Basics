@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Masked Link Example</title>
+</head>
+<body>
+  <a href="#" id="maskedLink">Click me</a>
+
+  <script>
+    // JavaScript code to handle the click event and mask the URL
+    document.getElementById('maskedLink').addEventListener('click', function(event) {
+      event.preventDefault(); // Prevent the default link behavior
+
+      // Replace this with the URL you want to mask
+      var maskedURL = 'https://www.example.com';
+
+      // Redirect or perform any other action as needed
+      // For example, you can use window.location to navigate to the masked URL
+      // window.location.href = maskedURL;
+      
+      // For this example, we will just log the masked URL
+      console.log('Masked URL: ' + maskedURL);
+    });
+  </script>
+</body>
+</html>
